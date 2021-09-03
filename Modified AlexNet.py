@@ -34,7 +34,7 @@ train_generator = train_datagen.flow_from_directory(
         target_size=(SIZE, SIZE),
         batch_size=batch_size,
         classes = ['covid','non-covid'],
-        color_mode='RGB',
+        color_mode='rgb',
         class_mode='binary')
 
 
@@ -50,7 +50,7 @@ val_generator = val_datagen.flow_from_directory(
         target_size=(SIZE, SIZE),
         batch_size=batch_size,
         classes = ['covid','non-covid'],
-        color_mode = 'grayscale',
+        color_mode = 'rgb',
         class_mode='binary')
 
 y_train = train_generator.classes
