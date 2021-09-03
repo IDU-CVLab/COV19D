@@ -16,9 +16,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 from tensorflow import keras
 from keras.models import load_model
-#from keras.utils import to_categorical
 from keras import backend as K
-#import seaborn as sns
 from keras.applications.vgg16 import VGG16
 from tensorflow.keras.applications.resnet50 import ResNet50
 from PIL import Image
