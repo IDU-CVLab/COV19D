@@ -92,7 +92,7 @@ Mod_AlexNet = tf.keras.models.Sequential([
   #To FC layer 2
   tf.keras.layers.Dense(10, activation='relu'),
     # add dropout 0.5 ==> tf.keras.layers.Dropout(0.5),
-  tf.keras.layers.Dense(1)
+  tf.keras.layers.Dense(2)
 ])
     
     
@@ -107,17 +107,17 @@ Mod_AlexNet.evaluate(val_generator)
 feature_extractor=Mod_AlexNet.predict(train_generator)
 features = feature_extractor.reshape(feature_extractor.shape[0], -1)
 
-X_val_feature = Mod_AlexNet.predict(val_generator)
-X_val_features = X_val_feature.reshape(X_val_feature.shape[0], -1)
+feature_extractor.shape
 
 # Random Forest Classifier
 from sklearn.ensemble import RandomForestClassifier
 RF_model = RandomForestClassifier(n_estimators = 50, random_state = 42)
 RF_model.fit(features, y_train)
 
+RF_model.fit(features, y_train)
+
 X_val_feature = Mod_AlexNet.predict(val_generator)
 X_val_features = X_val_feature.reshape(X_val_feature.shape[0], -1)
-
 
 prediction_RF = RF_model.predict(X_val_features)
 
@@ -126,7 +126,6 @@ print ("Accuracy = ", metrics.accuracy_score(y_val, prediction_RF))
 print ("F1_score (COVID) = ", metrics.f1_score(y_val, prediction_RF, pos_label = 0))
 print ("F1_score (NON-COVID) = ", metrics.f1_score(y_val, prediction_RF,pos_label = 1))
 print ("Macro F1_score = ", metrics.f1_score(y_val, prediction_RF, average='macro'))
-
 
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
