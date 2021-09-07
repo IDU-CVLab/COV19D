@@ -12,6 +12,7 @@ from sklearn import metrics
 from sklearn.metrics import average_precision_score
 from sklearn.metrics import recall_score
 from keras import models, layers
+from tensorflow.keras.optimizers import RMSprop
 ####### Generatiiing Data
 batch_size = 32
 SIZE = 128
