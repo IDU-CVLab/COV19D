@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep  7 00:28:03 2021
-
-@author: idu
-"""
-
-
 import os, glob
 import numpy as np
 import matplotlib.pyplot as plt
@@ -180,7 +171,3 @@ print ("F1_score (NON-COVID) = ", metrics.f1_score(y_val, prediction_RF,pos_labe
 print("Average Precision", average_precision_score(y_val, prediction_RF))
 print("Average Recall", recall_score(y_val, prediction_RF))
 print ("Macro F1_score = ", metrics.f1_score(y_val, prediction_RF, average='macro'))
-
-
-
-
