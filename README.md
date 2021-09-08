@@ -9,7 +9,7 @@ The codes use CNN model and transfer learning methods imporoved as follows:  <br
 3. The code 'COV19-CT-DB-Customized-CNN-Model-.py' Proposes a learning rate schedualer to a CNN model model. The results are:<br/>
 Macro F1 score is 0.944, average precision, accuracy, recall and precision results can be seen in the following two figures: <br/>
 ![Training and Testing Accuracy Figure](../master/Figures/trainandtestacc.png)               <br />
-![Testing_Recall_and_Teasting_Precision_Figure](../master/Figures/recalandprecision.png)     <br/>
+![Testing Recall and Teasting Precision Figure](../master/Figures/recalandprecision.png)     <br/>
       The CNN model achitechture is: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN%20Model%20Architecture.png" />
