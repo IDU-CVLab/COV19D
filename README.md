@@ -7,7 +7,7 @@ The codes use CNN model and transfer learning methods imporoved as follows:  <br
 2. The code 'Customized-CNN-Model-and-Tranfer-Learning-Model.py' is a customized CNN model with a linearly changing learning rate for image classification. The model achieved accuracy averaged about 70% and Macro F1 score of about 0.650. The proposed model is compared to a transfer learning model, MobileNet, for feature exctraction followed by a random forest classifier to take the final decision. The lattar model achieved only 0.494. <br/>  
 
 3. The code 'COV19-CT-DB-Customized-CNN-Model-.py' Proposes a learning rate schedualer to a CNN model model. The results are:<br/>
-Macro F1 score is 0.944, average precision, accuracy, recall and precision results can be seen in the following two figures: <br/>
+Macro F1 score is 0.944, accuracy, recall and precision results can be seen in the following two figures: <br/>
 ![Training and Testing Accuracy Figure](../master/Figures/trainandtestacc.png)               <br />
 ![Testing Recall and Teasting Precision Figure](../master/Figures/recalandprecision.png)     <br/>
       The CNN model achitechture is: <br/>
