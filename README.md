@@ -10,4 +10,6 @@ The codes use CNN model and transfer learning methods:  <br />
 Macro F1 score is 0.944, average precision, accuracy, recall and precision results can be seen in the following two figures: <br/>
 ![Training and Testing Accuracy Figure](../master/Figures/trainandtestacc.png)               <br />
 ![Testing_Recall_and_Teasting_Precision_Figure](../master/Figures/recalandprecision.png)
+![Model Architecture_Figure](https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN%20Model%20Architecture.png)
+
 
