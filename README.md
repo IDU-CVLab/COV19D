@@ -1,5 +1,5 @@
-# COV19D
-The project includes working on a chest CT-scan series of images aiming to develop an automated classification algorithm solution for Covid-19/non-Covid-19 diagnosis. The dataset is called COV19-CT-DB obtained during the international COV19D competetion described in section B at https://mlearn.lincoln.ac.uk/mia-cov19d/.
+# COV19-CT-DB
+The project includes working on a chest CT-scan series of images aiming to develop an automated classification algorithm solution for Covid-19/non-Covid-19 diagnosis. The dataset is called COV19-CT-DB obtained during the international COV19D competetion described in section B at https://mlearn.lincoln.ac.uk/mia-cov19d/. <br/>
 
 ## THE CODES
 The codes use CNN model and transfer learning methods:  <br />        
