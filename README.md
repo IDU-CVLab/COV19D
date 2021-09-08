@@ -11,7 +11,7 @@ Macro F1 score is 0.944, average precision, accuracy, recall and precision resul
 ![Training and Testing Accuracy Figure](../master/Figures/trainandtestacc.png)               <br />
 ![Testing_Recall_and_Teasting_Precision_Figure](../master/Figures/recalandprecision.png)     <br/>
 <p align="center">
-![Model Architecture_Figure](https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN%20Model%20Architecture.png)
-  </p>
+  <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN%20Model%20Architecture.png" />
+</p>
 
 
