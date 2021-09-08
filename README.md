@@ -9,6 +9,6 @@ The codes use CNN model and transfer learning methods:  <br />
 3. The code 'COV19-CT-DB-Customized-CNN-Model-.py' Proposes a different Learning Rate schedualer to the model. The results are:
 Macro F1 score is 0.924.
 The results can be seen in the following two figure: <br/>
-![Training and Testing Accuracy Figure](../master/Figures/trainandtestacc.png)                <br />
+![Training and Testing Accuracy Figure](../master/Figures/trainandtestacc.png)               <br />
 ![Testing_Recall_and_Teasting_Precision_Figure](../master/Figures/recalandprecision.png)
 
