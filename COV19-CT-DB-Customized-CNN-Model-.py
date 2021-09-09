@@ -6,7 +6,6 @@ Created on Tue Sep  7 00:28:03 2021
 @author: idu
 """
 
-
 import os, glob
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,6 +22,7 @@ from sklearn.metrics import recall_score
 from keras.callbacks import Callback, LearningRateScheduler, TensorBoard, ModelCheckpoint
 from tensorflow.keras.optimizers import RMSprop, SGD, Adam
 from keras import layers, models
+
 ####### Generatiiing Data
 batch_size = 32
 SIZE = 128
@@ -122,7 +122,7 @@ class StepLearningRateSchedulerAt(LearningRateScheduler):
 
 lr_rate_scheduler = StepLearningRateSchedulerAt(lr_scheduler)
 
-n_epochs= 25
+n_epochs= 50
 
 model.compile(loss='binary_crossentropy',
              optimizer='adam',
@@ -154,15 +154,16 @@ plt.title('Training and validation accuracy')
 plt.xlabel('Epochs')
 plt.ylabel('accuracy')
 plt.ylim(0.45,1)
+plt.xlim(0,25)
 plt.legend()
 
 plt.show()
 
-val_recall = history.history['val_recall_2']
+val_recall = history.history['val_recall']
 avg_recall = np.mean(val_recall)
 avg_recall
 
-val_precision = history.history['val_precision_2']
+val_precision = history.history['val_precision']
 avg_precision = np.mean(val_precision)
 avg_precision
 
