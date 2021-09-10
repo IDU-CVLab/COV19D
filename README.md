@@ -8,6 +8,8 @@ The codes use CNN model and transfer learning methods imporoved as follows:  <br
 
 3. The code 'COV19-CT-DB-Customized-CNN-Model-.py' Proposes a learning rate schedualer to a CNN model. <br/>
       The CNN model achitechture is: <br/>
-      
+<p align="center">
+  <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
+</p>      
 
 
