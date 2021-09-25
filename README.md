@@ -6,7 +6,7 @@ The codes use CNN model and transfer learning methods imporoved as follows:  <br
 1.  The Code '3D_Image_Classification_binary_loss_function.ipynb' is a CNN model with binary crossentropy as a losss function. <br />
 2. The code 'Customized-CNN-Model-and-Tranfer-Learning-Model.py' is a customized CNN model with a linearly changing learning rate for image classification. The proposed model is compared to a transfer learning model, MobileNet, for feature exctraction followed by a random forest classifier to take the final decision. The lattar model achieves less macro F1 score. <br/>  
 
-3. The code 'COV19-CT-DB-Customized-CNN-Model-.py' Proposes a learning rate schedualer to a CNN model. <br/>
+3. The code 'COV19-CT-DB-Customized-CNN-Model.py' Proposes a simple CNN model Architecture for automated COVID-19 diagnosis <br/>
       The CNN model achitechture is: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
