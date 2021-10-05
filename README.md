@@ -12,7 +12,7 @@ The codes use CNN model and transfer learning methods imporoved as follows:  <br
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
 </p>      
 <br/>
-Dependencies: <br/>
+<b> Dependencies: <br/>
 numpy <br/>
 matplotlib <br/>
 tensorflow  <br/>
