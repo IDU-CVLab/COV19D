@@ -13,9 +13,9 @@ The codes use CNN model and transfer learning methods imporoved as follows:  <br
 </p>      
 <br/>
 <b> Dependencies: </b><br/>
--numpy <br/>
--matplotlib <br/>
--tensorflow  <br/>
+-numpy == 1.19.5 <br/>
+-matplotlib == 3.3.4 <br/>
+-tensorflow == 2.5.0 <br/>
 
 
 
