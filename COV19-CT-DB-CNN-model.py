@@ -44,7 +44,7 @@ train_generator = train_datagen.flow_from_directory(
         class_mode='binary')
 
 val_datagen = ImageDataGenerator(rescale=1./255)
-# Change the training path '/home/idu/Desktop/COV19D/train/' to where your training set's directory is   
+# Change the training path '/home/idu/Desktop/COV19D/validation/' to where your validaiton set's directory is   
 val_generator = val_datagen.flow_from_directory(
         '/home/idu/Desktop/COV19D/validation/',  ## COV19-CT-DB Validation set (75532)
         target_size=(SIZE, SIZE),
