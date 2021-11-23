@@ -46,7 +46,7 @@ train_generator = train_datagen.flow_from_directory(
 val_datagen = ImageDataGenerator(rescale=1./255)
 # Change the training path '/home/idu/Desktop/COV19D/validation/' to where your validaiton set's directory is   
 val_generator = val_datagen.flow_from_directory(
-        '/home/idu/Desktop/COV19D/validation/',  ## COV19-CT-DB Validation set (75532)
+        '/home/idu/Desktop/COV19D/validation/',  ## COV19-CT-DB Validation set (75532 images)
         target_size=(SIZE, SIZE),
         batch_size=batch_size,
         color_mode='grayscale',
