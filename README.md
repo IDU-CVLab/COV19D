@@ -2,6 +2,10 @@
 The project includes working on a chest CT-scan series of images aiming to develop an automated classification algorithm solution for Covid-19/non-Covid-19 diagnosis. The dataset is called COV19-CT-DB obtained at AI-enabled Medical Image Analysis Workshop and Covid-19 Diagnosis Competition (MIA-COV19D), https://mlearn.lincoln.ac.uk/mia-cov19d/. <br/>
 
 ## THE CODES
+To replicate the codes the following must noted:
+1. To run the code properly you would need training set of images and validation set of images.
+2. The images must be put in the directory as it is in the code or the directory can be changed to match other directories. The code used to generate images is as described in the documentation for ‘imagedatagenerator’ and ‘train_generator.flow_from_directory’ rules, at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
+
 The codes develop CNN models as well as transfer learning models as follows:  <br />        
 1.  The Code '3D_Image_Classification_binary_loss_function.ipynb' is a CNN model with binary crossentropy as a losss function. <br />
 2. The code 'Customized-CNN-Model-and-Tranfer-Learning-Model.py' is a customized CNN model with a linearly changing learning rate for image classification. The proposed model is compared to transfer learning models, MobileNet, for feature exctraction followed by a random forest classifier to take the final decision. <br/>  
