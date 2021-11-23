@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+Created on Tue Nov 23 21:29:01 2021
+
+@author: idu
+"""
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
 Created on Tue Sep  7 00:28:03 2021
 
 @author: idu
@@ -19,14 +27,16 @@ from tensorflow.keras import activations
 
 ####### Generatiiing Data
 
-# batch_size = 64
-# batch_size = 64
+#batch_size = 32
+#batch_size = 64
 batch_size = 128
+
 SIZE = 512
 
-train_datagen = ImageDataGenerator(rescale=1./255)                             
+train_datagen = ImageDataGenerator(rescale=1./255)
+#Change the training path '/home/idu/Desktop/COV19D/train/' to where your training set's directory is                             
 train_generator = train_datagen.flow_from_directory(
-        '/home/idu/Desktop/COV19D/train/',  ## COV19-CT-DB Training set
+        '/home/idu/Desktop/COV19D/train/',  ## COV19-CT-DB Training set (335672 Images)
         target_size=(SIZE, SIZE),
         batch_size=batch_size,
         color_mode='grayscale',
@@ -34,25 +44,14 @@ train_generator = train_datagen.flow_from_directory(
         class_mode='binary')
 
 val_datagen = ImageDataGenerator(rescale=1./255)
+# Change the training path '/home/idu/Desktop/COV19D/train/' to where your training set's directory is   
 val_generator = val_datagen.flow_from_directory(
-        '/home/idu/Desktop/COV19D/validation/',  ## COV19-CT-DB Validation set
+        '/home/idu/Desktop/COV19D/validation/',  ## COV19-CT-DB Validation set (75532)
         target_size=(SIZE, SIZE),
         batch_size=batch_size,
         color_mode='grayscale',
         classes = ['covid','non-covid'],
         class_mode='binary')
-
-y_train = train_generator.classes
-y_val = val_generator.classes
-
-#### Display images from the train_generator
-for _ in range(5):
-    img, label = next(train_generator)
-    print(img.shape)
-    #print(label[0])
-    print(train_generator.classes[0])
-    plt.imshow(img[0])
-    plt.show()
 
 ################ CNN Model Architecture
 def make_model():
@@ -113,8 +112,7 @@ history=model.fit(train_generator,
                   verbose=2,
                   epochs=n_epochs)
 
-
-########################33 Evaluating
+######################## Evaluating
 print (history.history.keys())
             
 Train_accuracy = history.history['accuracy']
@@ -160,4 +158,3 @@ plt.show()
 
 Macro_F1score = (2*avg_precision*avg_recall)/ (avg_precision + avg_recall)
 Macro_F1score
-
