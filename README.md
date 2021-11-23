@@ -4,7 +4,7 @@ The project includes working on a chest CT-scan series of images aiming to devel
 ## THE CODES
 To replicate the codes the following must noted:
 1. To run the code properly you would need training set of images and validation set of images.
-2. The images must be put in the appropriate directory. With that the directory of training and validation images included in the code should be changed to match the directory where your iamge datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
+2. The images must be put in the appropriate directories. With that the directory of training and validation images included in the code should be changed to match the directory where your iamge datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
 
 The codes develop CNN models as well as transfer learning models as follows:  <br />        
 1.  The Code '3D_Image_Classification_binary_loss_function.ipynb' is a CNN model with binary crossentropy as a losss function. <br />
