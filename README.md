@@ -20,8 +20,8 @@ The codes develop CNN models as well as transfer learning models as follows:  <b
 -numpy == 1.19.5 <br/>
 -matplotlib == 3.3.4 <br/>
 -tensorflow == 2.5.0 <br/>
-
-If you use this model, please refernce the following arXiv paper: <br />  
+<br />  
+If you use this model, please refernce the following arXiv paper: 
 @misc{morani2021deep,
       title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images}, 
       author={Kenan Morani and Devrim Unay},
