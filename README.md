@@ -22,8 +22,13 @@ The codes develop CNN models as well as transfer learning models as follows:  <b
 -tensorflow == 2.5.0 <br/>
 
 If you use this model, please refernce the following arXiv paper: <br />  
-<I >Morani, Kenan and D. Unay. “Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images.” (2021). </I >
-
-
+@misc{morani2021deep,
+      title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images}, 
+      author={Kenan Morani and Devrim Unay},
+      year={2021},
+      eprint={2111.11191},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
 
 
