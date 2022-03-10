@@ -7,8 +7,8 @@ To replicate the codes, the following must be noted:
 2. The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
 
 The codes develop CNN models as well as transfer learning models as follows:  <br />        
-1.  The Code '3D_Image_Classification_binary_loss_function.ipynb' is a CNN model with binary crossentropy as a losss function. <br />
-2. The code 'Customized-CNN-Model-and-Tranfer-Learning-Model.py' is a customized CNN model with a linearly changing learning rate for image classification. The proposed CNN model is compared to a transfer learning model -MobileNet- for feature exctraction followed by a random forest classifier to take the final decision. <br/>  
+1.  The Code '3D_Image_Classification_binary_loss_function.ipynb' is a CNN model with binary crossentropy as a losss function. <br /> <br/> <br/>
+2. The code 'Customized-CNN-Model-and-Tranfer-Learning-Model.py' is a customized CNN model with a linearly changing learning rate for image classification. The proposed CNN model is compared to a transfer learning model -MobileNet- for feature exctraction followed by a random forest classifier to take the final decision. <br/> <br/><br/> 
 
 3. The code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis <br/>
       The CNN model achitechture is: <br/>
@@ -30,10 +30,10 @@ If you use this model, please refernce the following arXiv paper: <br />
       archivePrefix={arXiv}, <br /> 
       primaryClass={eess.IV} <br /> 
 }
-<br /> <br/> 
+<br /> <br/> <br/>
 4. The code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
 Uses the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
-The code can be devided in two parts: <br/>
+The code can be devided in two parts: <br/><br/>
 _Part1_. The code without slice processing and parameters tuning: <br />
 ● The code can be found at https://github.com/IDUCVLab/COV19D/blob/main/COV19-CT-DB-CNN-model.py  <br />
 ● The code is written fully in Python using Spyder 3 IDE (.py code) and you should have the appropriate software/tools to use python code.  <br />
@@ -47,7 +47,7 @@ images.
 and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for
 ‘imagedatagenerator’ and ‘flow_from_directory’ at
 https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br />
-● No further instructions are needed to run the code. <br /> 
+● No further instructions are needed to run the code. <br /> <br/>
 _PartII_. The code with rectangle-shape cropping and hyperparameters tuning: <br />
 ● Dependencies used to build the code are: <br />
 ▪ CV2 == 4.5.4 <br />
