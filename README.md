@@ -34,7 +34,7 @@ If you use this model, please refernce the following arXiv paper: <br />
 4. The code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
 Uses the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/>
- PartI. The code without slice processing and parameters tuning: <br />
+ _PartI_. The code without slice processing and parameters tuning: <br />
 ● The code can be found at https://github.com/IDUCVLab/COV19D/blob/main/COV19-CT-DB-CNN-model.py  <br />
 ● The code is written fully in Python using Spyder 3 IDE (.py code) and you should have the appropriate software/tools to use python code.  <br />
 ● Dependencies used to build the code are: <br />
@@ -47,9 +47,8 @@ images.
 and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for
 ‘imagedatagenerator’ and ‘flow_from_directory’ at
 https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br />
-● No further instructions are needed to run the code. <br /> <br />
-
-PartII. The code with rectangle-shape cropping and hyperparameters tuning: <br />
+● No further instructions are needed to run the code. <br /> 
+_PartII_. The code with rectangle-shape cropping and hyperparameters tuning: <br />
 ● Dependencies used to build the code are: <br />
 ▪ CV2 == 4.5.4 <br />
 ▪ sklearn == 0.24.2 <br />
