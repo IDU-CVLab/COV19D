@@ -31,4 +31,43 @@ If you use this model, please refernce the following arXiv paper: <br />
       primaryClass={eess.IV} <br /> 
 }
 
+4. The code "Static_Cropping_Deeplearning_Model_for_CT_images.py" Uses the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. 
+ A. The code without slice processing and parameters tuning:
+● The code can be found on our lab’s github at https://github.com/IDUCVLab/
+COV19D/blob/main/COV19-CT-DB-CNN-model.py
+● The code attached to the submitted paper is written fully in Python using Spyder 3 IDE
+(.py code) and you should have the appropriate software/tools to use python code.
+● Dependencies used to build the code are:
+▪ numpy == 1.19.5
+▪ matplotlib == 3.3.4
+▪ tensorflow == 2.5.0
+● To run the code properly you would need a training set of images and a validation set of
+images.
+● The images must be put in the appropriate directories. With that, the directory of training
+and validation images included in the code should be changed to match the directory
+where your image datasets are located. This method is following the documentation for
+‘imagedatagenerator’ and ‘flow_from_directory’ at
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGe
+nerator
+● No further instructions are needed to run the code.
+
+B. The code with rectangle-shape cropping and hyperparameters tuning:
+● Dependencies used to build the code are:
+▪ CV2 == 4.5.4
+▪ sklearn == 0.24.2
+ Slice preprocessing can be found at our lab’s github at https://github.com/IDUCVLab/
+Images_Preprocessing. [Guided GRad-Cam Visualization, and Images
+processing 1 and 2].
+ Gradcam visualization follows the code reference at:
+https://stackoverflow.com/questions/66911470/how-to-apply-grad-cam-on-my-trainedmodel
+{Last Access 13.12.2021}
+ Blurring, binarization and segmentation follows the code reference:
+https://datacarpentry.org/image-processing/07-thresholding/ {Last Access 15.12.2021}
+ Region of interest cropping follows the code references:
+https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html {Last Access
+15.12.2021}
+https://stackoverflow.com/questions/56467902/select-a-static-roi-on-webcam-video-onpython-
+opencv {Last Access 15.12.2021}
+https://stackoverflow.com/questions/15341538/numpy-opencv-2-how-do-i-crop-nonrectangular-
+region {Last Access 15.12.2021}
 
