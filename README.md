@@ -59,9 +59,10 @@ https://stackoverflow.com/questions/15341538/numpy-opencv-2-how-do-i-crop-nonrec
 region {Last Access 15.12.2021} <br/>
 - arXiv paper (version 2) can be found at https://arxiv.org/abs/2111.11191v2 [download the PDF to read the paper] <br/> <br/>
 If you use this method please reference: <br/>
-@article{morani2021deep,<br />
-  title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images},<br />
-  author={Morani, Kenan and Unay, Devrim},<br />
-  journal={arXiv preprint arXiv:2111.11191},<br />
-  year={2021}<br />
+@article{Morani2021DeepLB,
+  title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images},
+  author={Kenan Morani and Devrim {\"U}nay},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2111.11191}
 }
