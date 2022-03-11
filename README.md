@@ -6,10 +6,10 @@ To replicate the codes, the following must be noted:
 1. To run the code properly you would need training set of images and validation set of images.
 2. The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
 
-The codes develop CNN models as well as transfer learning models as follows:  <br />        
+The codes were developed in two versions as follows:  <br />        
 
-1. Version1 is the code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis <br/>
-      The CNN model achitechture is: <br/>
+### 1. Version1 
+Version1 is the code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis. <br/>The CNN model achitechture is: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
 </p>      
@@ -22,7 +22,8 @@ The codes develop CNN models as well as transfer learning models as follows:  <b
 ArXiv paper (version 1) can be found at https://arxiv.org/abs/2111.11191
 
 <br /> <br/> 
-2. Version2 is the code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
+### 2. Version2 
+Version2 is the code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
 Uses the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/><br/>
 _Part1_. The code without slice processing and parameters tuning: <br />
