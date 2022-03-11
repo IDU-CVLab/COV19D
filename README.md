@@ -19,8 +19,8 @@ Version1 is the code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered 
 -matplotlib == 3.3.4 <br/>
 -tensorflow == 2.5.0 <br/>
 <br />  
-- ArXiv paper (version 1) can be found at https://arxiv.org/abs/2111.11191
-<br /> 
+- ArXiv paper (version 1) can be found at https://arxiv.org/abs/2111.11191 <br />
+ 
 ### 2. Version2 
 <br/>
 Version2 is the code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
