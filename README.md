@@ -19,7 +19,7 @@ Version1 is the code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered 
 -matplotlib == 3.3.4 <br/>
 -tensorflow == 2.5.0 <br/>
 <br />  
-ArXiv paper (version 1) can be found at https://arxiv.org/abs/2111.11191
+_ArXiv paper (version 1) can be found at https://arxiv.org/abs/2111.11191_
 <br /> 
 ### 2. Version2 
 Version2 is the code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
@@ -57,7 +57,7 @@ https://stackoverflow.com/questions/56467902/select-a-static-roi-on-webcam-video
 opencv {Last Access 15.12.2021} <br/>
 https://stackoverflow.com/questions/15341538/numpy-opencv-2-how-do-i-crop-nonrectangular-
 region {Last Access 15.12.2021} <br/>
-arXiv paper version 2 can be found at https://arxiv.org/abs/2111.11191v2 <br/> <br/>
+_arXiv paper version 2 can be found at https://arxiv.org/abs/2111.11191v2_ <br/> <br/>
 If you use this method please reference: <br/>
 @article{morani2021deep,<br />
   title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images},<br />
