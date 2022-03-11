@@ -8,7 +8,7 @@ To replicate the codes, the following must be noted:
 
 The codes develop CNN models as well as transfer learning models as follows:  <br />        
 
-1. The code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis <br/>
+1. Version1 is the code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis <br/>
       The CNN model achitechture is: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
@@ -19,17 +19,10 @@ The codes develop CNN models as well as transfer learning models as follows:  <b
 -matplotlib == 3.3.4 <br/>
 -tensorflow == 2.5.0 <br/>
 <br />  
-If you use this model, please refernce the following arXiv paper: <br />  
-@misc{morani2021deep,    <br />
-      title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images}, <br /> 
-      author={Kenan Morani and Devrim Unay}, <br /> 
-      year={2021}, <br /> 
-      eprint={2111.11191}, <br /> 
-      archivePrefix={arXiv}, <br /> 
-      primaryClass={eess.IV} <br /> 
-}
+ArXiv paper (version 1) can be found at https://arxiv.org/abs/2111.11191
+
 <br /> <br/> 
-2. The code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
+2. Version2 is the code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/> 
 Uses the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/><br/>
 _Part1_. The code without slice processing and parameters tuning: <br />
@@ -64,4 +57,11 @@ https://stackoverflow.com/questions/56467902/select-a-static-roi-on-webcam-video
 opencv {Last Access 15.12.2021} <br/>
 https://stackoverflow.com/questions/15341538/numpy-opencv-2-how-do-i-crop-nonrectangular-
 region {Last Access 15.12.2021} <br/>
-
+arXiv paper version 2 can be found at https://arxiv.org/abs/2111.11191v2 <br/> <br/>
+If you use this method please reference: <br/>
+@article{morani2021deep,<br />
+  title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images},<br />
+  author={Morani, Kenan and Unay, Devrim},<br />
+  journal={arXiv preprint arXiv:2111.11191},<br />
+  year={2021}<br />
+}
