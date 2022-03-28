@@ -34,8 +34,7 @@ _Part1_. The code without slice processing and parameters tuning: <br />
 ▪ numpy == 1.19.5 <br />
 ▪ matplotlib == 3.3.4 <br />
 ▪ tensorflow == 2.5.0 <br />
-● To run the code properly you would need a training set of images and a validation set of <br />
-images.
+● To run the code properly you would need a training set of images and a validation set of images. <br />
 ● The images must be put in the appropriate directories. With that, the directory of training <br />
 and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for
 ‘imagedatagenerator’ and ‘flow_from_directory’ at
