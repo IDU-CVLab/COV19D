@@ -50,7 +50,7 @@ Images_Preprocessing. [Guided GRad-Cam Visualization, and Images processing 1 an
 https://stackoverflow.com/questions/66911470/how-to-apply-grad-cam-on-my-trainedmodel
 {Last Access 13.12.2021} <br/>
  Blurring, binarization and segmentation follows the code reference: <br/>
-https://datacarpentry.org/image-processing/07-thresholding/ {Last Access 15.12.2021}
+https://datacarpentry.org/image-processing/07-thresholding/ {Last Access 15.12.2021} <br/>
  Region of interest cropping follows the code references: <br/>
 https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html {Last Access
 15.12.2021} <br/>
