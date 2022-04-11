@@ -28,7 +28,7 @@ Version2 is the code "Static_Cropping_Deeplearning_Model_for_CT_images.py"  <br/
 https://github.com/IDU-CVLab/COV19D/blob/main/Static_Cropping_Deeplearning_Model_for_CT_images.py <br/>
 Uses the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/><br/>
-_Part1_. The code without slice processing and parameters tuning: <br />
+_Part1_. The code without slice processing and parameters tuning [as in version1]: <br />
 ● The code is written fully in Python using Spyder 3 IDE (.py code) and you should have the appropriate software/tools to use python code.  <br />
 ● Dependencies used to build the code are: <br />
 ▪ numpy == 1.19.5 <br />
