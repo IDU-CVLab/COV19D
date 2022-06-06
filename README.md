@@ -68,5 +68,5 @@ If you use this method please reference: <br/>
   volume={abs/2111.11191} <br/>
 }
 
-Video introducing the topic and the methodology and more is at https://youtu.be/hTOt1HYTRqQ
+- A video introducing the topic, the methodology and more is at https://youtu.be/hTOt1HYTRqQ
 
