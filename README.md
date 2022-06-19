@@ -10,7 +10,8 @@ To replicate the codes, the following must be noted:
 
 The algorithm was developed in two versions or steps as follows:  <br />        
 
-### 1. Version1 'COV19-CT-DB-CNN-Model.py' 
+### 1. Version1 
+* The Code 'COV19-CT-DB-CNN-Model.py' <br/>
 The algorithm introduces a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis. <br/>The CNN model achitechture is: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
@@ -23,7 +24,8 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 <br />  
 
  
-### 2. Version2 'Static_Cropping_Deeplearning_Model_for_CT_images.py'
+### 2. Version2 
+* The Code 'Static_Cropping_Deeplearning_Model_for_CT_images.py' <br/>
 The work makes use of the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/><br/>
 _Part1_. The code without slice processing and parameters tuning [as in version1]: <br />
