@@ -8,7 +8,7 @@ To replicate the codes, the following must be noted:
 1. To run the code properly you would need training set of images and validation set of images.
 2. The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
 
-The codes were developed in two versions as follows:  <br />        
+The algorithm was developed in two versions or steps as follows:  <br />        
 
 ### 1. Version1 
 Version1 is the code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis. <br/>The CNN model achitechture is: <br/>
