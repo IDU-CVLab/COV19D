@@ -38,7 +38,7 @@ https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDat
 _PartII_. The code with rectangle-shape cropping and hyperparameters tuning: <br />
 ● Further dependencies used for this part are: <br />
 ▪ CV2 == 4.5.4 <br />
-▪ sklearn == 0.24.2 <br />
+▪ sklearn == 0.24.2 <br /> <br/>
  Slice preprocessing can be found at https://github.com/IDUCVLab/Images_Preprocessing. [Guided GRad-Cam Visualization, and Images processing 1 and 2]. <br />
  Gradcam visualization follows the code reference at: <br/>
 https://stackoverflow.com/questions/66911470/how-to-apply-grad-cam-on-my-trainedmodel
@@ -52,7 +52,7 @@ https://stackoverflow.com/questions/56467902/select-a-static-roi-on-webcam-video
 opencv {Last Access 15.12.2021} <br/>
 https://stackoverflow.com/questions/15341538/numpy-opencv-2-how-do-i-crop-nonrectangular-
 region {Last Access 15.12.2021} <br/>
-- Updated arXiv paper can be found at https://arxiv.org/abs/2111.11191 <br/> <br/>
+- Updated arXiv paper describing the the dataset, the methedology, and the results can be found at https://arxiv.org/abs/2111.11191 <br/> <br/>
 If you use this method, please reference: <br/>
 @article{Morani2021DeepLB, <br/>
   title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images}, <br/>
