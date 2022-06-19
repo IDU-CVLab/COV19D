@@ -11,7 +11,7 @@ To replicate the codes, the following must be noted:
 The algorithm was developed in two versions or steps as follows:  <br />        
 
 ### 1. Version1 
-Version1 is the code 'COV19-CT-DB-CNN-Model.py' Proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis. <br/>The CNN model achitechture is: <br/>
+Version1 is the code 'COV19-CT-DB-CNN-Model.py'. The work proposes a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis. <br/>The CNN model achitechture is: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
 </p>      
