@@ -21,7 +21,6 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 -numpy == 1.19.5 <br/>
 -matplotlib == 3.3.4 <br/>
 -tensorflow == 2.5.0 <br/>
-<br />  
 
  
 ### 2. Version2 
