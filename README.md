@@ -30,7 +30,7 @@ The work makes use of the above mentioned CNN model with images preprocessed bef
 The code can be devided in two parts: <br/><br/>
 _PartI_. The code without slice processing and parameters tuning [as in version1]: <br />
 
-_PartII_. The code with rectangle-shape cropping and hyperparameters tuning: <br />
+_PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br />
 ● Further dependencies used for this part are: <br />
 ▪ CV2 == 4.5.4 <br />
 ▪ sklearn == 0.24.2 <br /> <br/>
