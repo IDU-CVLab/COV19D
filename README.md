@@ -29,13 +29,7 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 The work makes use of the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/><br/>
 _Part1_. The code without slice processing and parameters tuning [as in version1]: <br />
-● The code is written fully in Python using Spyder 3 IDE (.py code) and you should have the appropriate software/tools to use python code.  <br />
-● To run the code properly you would need a training set of images and a validation set of images. <br />
-● The images must be put in the appropriate directories. With that, the directory of training <br />
-and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for
-‘imagedatagenerator’ and ‘flow_from_directory’ at
-https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br />
-● No further instructions are needed to run the code. <br /> <br/>
+
 _PartII_. The code with rectangle-shape cropping and hyperparameters tuning: <br />
 ● Further dependencies used for this part are: <br />
 ▪ CV2 == 4.5.4 <br />
