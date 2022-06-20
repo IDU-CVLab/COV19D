@@ -5,7 +5,7 @@ https://cpb-eu-w2.wpmucdn.com/blogs.lincoln.ac.uk/dist/c/6133/files/2022/03/iccv
 
 ## THE CODES
 To replicate the codes, the following must be noted:
-1. To run the code properly you would need training set of images and validation set of images.
+1. To run the code properly you would need a training set of images and a validation set of images.
 2. The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
 
 The algorithm was developed in two versions or steps as follows:  <br />        
