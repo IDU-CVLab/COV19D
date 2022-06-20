@@ -33,7 +33,7 @@ _PartI_. The code without slice processing and parameters tuning [as in version1
 _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br />
 ● Further dependencies used for this part are: <br />
 ▪ CV2 == 4.5.4 <br />
-▪ sklearn == 0.24.2 <br /> 
+▪ sklearn == 0.24.2 <br /> <br/>
 REFERENCES <br/>
  Slice preprocessing can be found at https://github.com/IDUCVLab/Images_Preprocessing. [Guided GRad-Cam Visualization, and Images processing 1 and 2]. <br />
  Gradcam visualization follows the code reference at: <br/>
