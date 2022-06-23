@@ -44,5 +44,5 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
   year={2021}, <br/>
   volume={abs/2111.11191} <br/>
 } <br/>
-● A video introducing the topic, the methodology and more is at https://youtu.be/hTOt1HYTRqQ
+● A video introducing the topic, the methodology and more is [here]([https://cpb-eu-w2.wpmucdn.com/blogs.lincoln.ac.uk/dist/c/6133/files/2022/03/iccv_cov19d_leaderboard.pdf](https://youtu.be/hTOt1HYTRqQ). 
 
