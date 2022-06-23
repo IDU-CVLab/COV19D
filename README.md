@@ -25,7 +25,6 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 -matplotlib == 3.3.4 <br/>
 -tensorflow == 2.5.0 <br/>
 
- 
 ### 2. Version2 
 **The Code 'Static_Cropping_Deeplearning_Model_for_CT_images.py'** <br/>
 The work makes use of the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
@@ -35,10 +34,10 @@ _PartI_. The code without slice processing and parameters tuning [as in version1
 _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br />
 ● Further dependencies used for this part are: <br />
 ▪ CV2 == 4.5.4 <br />
-▪ sklearn == 0.24.2 <br /> <br/>
+▪ sklearn == 0.24.2 <br />
 
 ## Cite 
-- If you use this method, please reference: <br/>
+● If you use this method, please reference: <br/>
 @article{Morani2021DeepLB, <br/>
   title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images}, <br/>
   author={Kenan Morani and Devrim {\"U}nay}, <br/>
@@ -46,5 +45,5 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
   year={2021}, <br/>
   volume={abs/2111.11191} <br/>
 }
-- A video introducing the topic, the methodology and more is at https://youtu.be/hTOt1HYTRqQ
+● A video introducing the topic, the methodology and more is at https://youtu.be/hTOt1HYTRqQ
 
