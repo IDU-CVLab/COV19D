@@ -33,20 +33,6 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
 ● Further dependencies used for this part are: <br />
 ▪ CV2 == 4.5.4 <br />
 ▪ sklearn == 0.24.2 <br /> <br/>
-REFERENCES <br/>
- Slice preprocessing can be found at https://github.com/IDUCVLab/Images_Preprocessing. [Guided GRad-Cam Visualization, and Images processing 1 and 2]. <br />
- Gradcam visualization follows the code reference at: <br/>
-https://stackoverflow.com/questions/66911470/how-to-apply-grad-cam-on-my-trainedmodel
-{Last Access 13.12.2021} <br/>
- Blurring, binarization and segmentation follows the code reference: <br/>
-https://datacarpentry.org/image-processing/07-thresholding/ {Last Access 15.12.2021} <br/>
- Region of interest cropping follows the code references: <br/>
-https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html {Last Access
-15.12.2021} <br/>
-https://stackoverflow.com/questions/56467902/select-a-static-roi-on-webcam-video-onpython-
-opencv {Last Access 15.12.2021} <br/>
-https://stackoverflow.com/questions/15341538/numpy-opencv-2-how-do-i-crop-nonrectangular-
-region {Last Access 15.12.2021} <br/>
 
 ### arXiv Paper 
 - Updated arXiv paper describing the the dataset, the methedology, and the results can be found at https://arxiv.org/abs/2111.11191 <br/> <br/>
