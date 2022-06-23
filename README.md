@@ -27,7 +27,7 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 **The Code 'Static_Cropping_Deeplearning_Model_for_CT_images.py'** <br/>
 The work makes use of the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/><br/>
-_PartI_. The code without slice processing and parameters tuning [as in version1]: <br />
+_PartI_. The code without slice processing and parameters tuning [as in version1]. <br />
 
 _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br />
 ● Further dependencies used for this part are: <br />
