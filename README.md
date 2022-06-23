@@ -1,6 +1,6 @@
 ## COV19-CT-DB Database
 
-[![DOI:10.48550/arXiv.2111.11191]([https://doi.org/10.48550/arXiv.2111.11191](http://img.shields.io/badge/math.CO-arXiv%3A1408.3644-B31B1B.svg))](https://doi.org/10.48550/arXiv.2111.11191)
+[![DOI:10.48550/arXiv.2111.11191](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.48550/arXiv.2111.11191)
 
 * The project includes working on a chest CT-scan series of images aiming to develop an automated classification algorithm solution for Covid-19/non-Covid-19 diagnosis. The dataset is called COV19-CT-DB obtained at AI-enabled Medical Image Analysis Workshop and Covid-19 Diagnosis Competition (MIA-COV19D), https://mlearn.lincoln.ac.uk/mia-cov19d/. <br/>
 * The team (IDU-CVLab) is on the leaderboard at: <br/>
