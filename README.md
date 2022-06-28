@@ -36,13 +36,13 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
 ▪ sklearn == 0.24.2 <br />
 
 ## Cite 
-● If you use this method, please reference: <br/>
+● If you use this method, please cite: <br/>
 @article{Morani2021DeepLB, <br/>
   title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images}, <br/>
   author={Kenan Morani and Devrim {\"U}nay}, <br/>
   journal={ArXiv}, <br/>
   year={2021}, <br/>
   volume={abs/2111.11191} <br/>
-} <br/>
-● A video introducing the topic, the methodology and more is [here](https://youtu.be/hTOt1HYTRqQ).
+} 
+
 
