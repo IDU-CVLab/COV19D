@@ -20,9 +20,9 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 </p>      
 <br/>
 <b> Dependencies: </b><br/>
--numpy == 1.19.5 <br/>
--matplotlib == 3.3.4 <br/>
--tensorflow == 2.5.0 <br/>
+▪ numpy == 1.19.5 <br/>
+▪ matplotlib == 3.3.4 <br/>
+▪ tensorflow == 2.5.0 <br/>
 
 ### 2. Version2 
 **The Code 'Static_Cropping_Deeplearning_Model_for_CT_images.py'** <br/>
