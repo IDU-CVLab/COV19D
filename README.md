@@ -42,4 +42,7 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
   journal={ArXiv}, <br/>
   year={2021}, <br/>
   volume={abs/2111.11191} <br/>
-} 
+}
+
+## Explanatory video
+● Literature review, methedology, and results can be found [here](https://www.youtube.com/watch?v=hTOt1HYTRqQ&t=1s).
