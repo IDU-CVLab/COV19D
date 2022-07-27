@@ -45,6 +45,6 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
 } 
 
 <figure class="video_container">
-  <iframe src="https://youtu.be/hTOt1HYTRqQ" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/hTOt1HYTRqQ" allowfullscreen></iframe>" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
