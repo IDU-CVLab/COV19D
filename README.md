@@ -43,8 +43,3 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
   year={2021}, <br/>
   volume={abs/2111.11191} <br/>
 } 
-
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/hTOt1HYTRqQ" allowfullscreen></iframe>" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
