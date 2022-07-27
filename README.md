@@ -45,4 +45,4 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
 }
 
 ## Explanatory video
-● Literature review, methedology, and results can be found [here](https://www.youtube.com/watch?v=hTOt1HYTRqQ&t=1s).
+● Literature review, methedology, results and more can be found [here](https://www.youtube.com/watch?v=hTOt1HYTRqQ&t=1s). (~34min)
