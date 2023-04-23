@@ -44,5 +44,5 @@ _PartII_. The code with rectangle-shape cropping and hyperparameters tuning. <br
   volume={abs/2111.11191} <br/>
 }
 
-## Explanatory video
-● Literature review, methedology, results and more can be found [here](https://www.youtube.com/watch?v=hTOt1HYTRqQ&t=1s). (~34min)
+# Collaboration
+* Please get in touch if you wish to collaborate or wish to request the pre-trained models.
