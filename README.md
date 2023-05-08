@@ -9,10 +9,9 @@ To replicate the codes, the following must be noted:
 1. To run the code properly you would need a training set of images and a validation set of images.
 2. The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br /> 
 
-The algorithm was developed in two versions or steps as follows:  <br />        
+The algorithm was developed as follows:  <br />        
 
-### 1. Version1 
-**The Code 'COV19-CT-DB-CNN-Model.py'** <br/>
+### 1. The CNN model:
 The algorithm introduces a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis. <br/>The CNN model achitechture is: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
@@ -23,8 +22,7 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 ▪ matplotlib == 3.3.4 <br/>
 ▪ tensorflow == 2.5.0 <br/>
 
-### 2. Version2 
-**The Code 'Static_Cropping_Deeplearning_Model_for_CT_images.py'** <br/>
+### 2. Full Method:
 The work makes use of the above mentioned CNN model with images preprocessed before training. The preprocessing includes a static rectangular croping to the Region of Interest (ROI) in the CT sclices and statitical methods for uppermost and lowermost removal of the slcies in each CT scan image. <br />
 The code can be devided in two parts: <br/><br/>
 _PartI_. The code without slice processing and parameters tuning [as in version1]. <br />
