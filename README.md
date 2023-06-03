@@ -30,16 +30,16 @@ To replicate the codes, the following must be noted:
 
 ## Citation
 ● If you find the method useful this method, please considering citing: <br/>
-@article{doi:10.1080/21681163.2023.2219765,
-author = {Kenan Morani and D. Unay},
-title = {Deep learning-based automated COVID-19 classification from computed tomography images},
-journal = {Computer Methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization},
-volume = {0},
-number = {0},
-pages = {1-16},
-year  = {2023},
-publisher = {Taylor & Francis},
-doi = {10.1080/21681163.2023.2219765},
+@article{doi:10.1080/21681163.2023.2219765, <br/>
+author = {Kenan Morani and D. Unay}, <br/>
+title = {Deep learning-based automated COVID-19 classification from computed tomography images}, <br/>
+journal = {Computer Methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization}, <br/>
+volume = {0}, <br/>
+number = {0}, <br/>
+pages = {1-16}, <br/>
+year  = {2023}, <br/>
+publisher = {Taylor & Francis}, <br/>
+doi = {10.1080/21681163.2023.2219765}, <br/>
 
 ## Collaboration
 * Please get in touch if you wish to collaborate or wish to request the pre-trained models.
