@@ -1,6 +1,6 @@
 ## Database
 
-[![DOI:10.48550/arXiv.2111.11191](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.48550/arXiv.2111.11191)   
+[![DOI:10.1080/21681163.2023.2219765](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.48550/arXiv.2111.11191)   
 * The dataset is called COV19-CT-DB obtained at [AI-enabled Medical Image Analysis Workshop and Covid-19 Diagnosis Competition (ICCV 2021 Workshop: MIA-COV19D 2021)](https://mlearn.lincoln.ac.uk/mia-cov19d/). The project is conducted using chest CT-scan series of images aiming to develop an automated solution for Covid-19/non-Covid-19 diagnosis. <br/>
 * The team (IDU-CVLab) introduces a light weight solution for COVID-19 diagnosis and is listed on the leaderboard [here](https://cpb-eu-w2.wpmucdn.com/blogs.lincoln.ac.uk/dist/c/6133/files/2022/03/iccv_cov19d_leaderboard.pdf). <br/>
 
@@ -30,13 +30,16 @@ To replicate the codes, the following must be noted:
 
 ## Citation
 ● If you find the method useful this method, please considering citing: <br/>
-@article{Morani2021DeepLB, <br/>
-  title={Deep Learning Based Automated COVID-19 Classification from Computed Tomography Images}, <br/>
-  author={Kenan Morani and Devrim {\"U}nay}, <br/>
-  journal={ArXiv}, <br/>
-  year={2021}, <br/>
-  volume={abs/2111.11191} <br/>
-}
+@article{doi:10.1080/21681163.2023.2219765,
+author = {Kenan Morani and D. Unay},
+title = {Deep learning-based automated COVID-19 classification from computed tomography images},
+journal = {Computer Methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization},
+volume = {0},
+number = {0},
+pages = {1-16},
+year  = {2023},
+publisher = {Taylor & Francis},
+doi = {10.1080/21681163.2023.2219765},
 
 ## Collaboration
 * Please get in touch if you wish to collaborate or wish to request the pre-trained models.
