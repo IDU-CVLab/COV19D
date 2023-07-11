@@ -29,7 +29,7 @@ To replicate the codes, the following must be noted:
 2. The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br />       
 
 ## Citation
-● If you find the this method useful, please consider citing: <br/>
+If you find the this method useful, please consider citing: <br/> <br/>
 @article{doi:10.1080/21681163.2023.2219765, <br/>
 author = {Kenan Morani and D. Unay}, <br/>
 title = {Deep learning-based automated COVID-19 classification from computed tomography images}, <br/>
