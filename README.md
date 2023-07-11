@@ -13,7 +13,7 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 
 ## Full Method
 * The work makes use of the above mentioned CNN model with slices preprocessed before training. 
-* Slices preprocessing , as [here](https://github.com/IDU-CVLab/Images_Preprocessing), includes a static rectangular croping to the Region of Interest (ROI) in the sclice, and statitical methods for uppermost and lowermost slcies removal in the CT scan. For more details on the methodology, please refer to the peer-reviewed paper. <br />
+* Slices preprocessing , as in [here](https://github.com/IDU-CVLab/Images_Preprocessing), includes a static rectangular croping to the Region of Interest (ROI) in the sclice, and statitical methods for uppermost and lowermost slcies removal in the CT scan. For more details on the methodology, please refer to the peer-reviewed paper. <br />
 
 <br/>
 <b> Dependencies: </b><br/>
