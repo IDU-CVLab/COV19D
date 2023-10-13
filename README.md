@@ -1,4 +1,4 @@
-[![DOI:10.1080/21681163.2023.2219765](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.1080/21681163.2023.2219765) 
+[![DOI:10.1080/21681163.2023.2219765](http://img.shields.io/badge/DOI-10.1080/21681163.2023.2219765-B31B1B.svg)](https://doi.org/10.1080/21681163.2023.2219765) 
 
 ## Database  
 * The dataset is called COV19-CT-DB obtained at [AI-enabled Medical Image Analysis Workshop and Covid-19 Diagnosis Competition (ICCV 2021 Workshop: MIA-COV19D 2021)](https://mlearn.lincoln.ac.uk/mia-cov19d/). The project is conducted using chest CT-scan series of images aiming to develop an automated solution for Covid-19/non-Covid-19 diagnosis. <br/>
