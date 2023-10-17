@@ -25,8 +25,9 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 
 ## Training the Model
 To replicate the codes, the following must be noted:
-1. To run the code properly you would need a training set of images and a validation set of images.
-2. The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator <br />       
+* To run the code properly you would need a training set of images and a validation set of images.
+* The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
+* Please note: this is a binary classificaiton task. To replicate the code using muti-class classificaiton data, you need to modify the model's output to suit your task.       
 
 ## Citation
 If you find the this method useful, please consider citing: <br/> <br/>
