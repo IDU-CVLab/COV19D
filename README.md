@@ -31,7 +31,7 @@ To replicate the codes, the following must be noted:
 
 ## Citation
 If you find the this method useful, please consider citing: <br/> <br/>
-@article{doi:10.1080/21681163.2023.2219765, <br/>
+>@article{doi:10.1080/21681163.2023.2219765, <br/>
 author = {Kenan Morani and D. Unay}, <br/>
 title = {Deep learning-based automated COVID-19 classification from computed tomography images}, <br/>
 journal = {Computer Methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization}, <br/>
