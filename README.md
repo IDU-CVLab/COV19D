@@ -41,3 +41,5 @@ pages = {1-16}, <br/>
 year  = {2023}, <br/>
 publisher = {Taylor & Francis}, <br/>
 doi = {10.1080/21681163.2023.2219765}, <br/>
+
+* Kindly inform the organization owner if you wish to obtain the pretrained model in this study
