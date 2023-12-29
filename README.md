@@ -4,8 +4,8 @@
 * The dataset is named COV19-CT-DB. It is obtained at [AI-enabled Medical Image Analysis Workshop and Covid-19 Diagnosis Competition (ICCV 2021 Workshop: MIA-COV19D 2021)](https://mlearn.lincoln.ac.uk/mia-cov19d/). The project is conducted using chest CT-scan series of images aiming to develop an automated solution for Covid-19/non-Covid-19 diagnosis. <br/>
 * The team (IDU-CVLab) introduces a light weight solution for COVID-19 diagnosis and is listed on the leaderboard [here](https://cpb-eu-w2.wpmucdn.com/blogs.lincoln.ac.uk/dist/c/6133/files/2022/03/iccv_cov19d_leaderboard.pdf). <br/>
 
-## Methidology
-# Proposed CNN Model
+## Methodology
+### Proposed CNN Model
 The algorithm introduces a less hand-engineered CNN model Architecture for automated COVID-19 diagnosis. <br/>The CNN model achitechture is in picture below: <br/>
 <p align="center">
   <img src="https://github.com/IDU-CVLab/COV19D/blob/main/Figures/CNN-Model-Architecture.png" />
@@ -16,7 +16,7 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 * Slices preprocessing -as in [here](https://github.com/IDU-CVLab/Images_Preprocessing)- includes a static rectangular cropping, and non-representative slcies removal in each CT scan. For more details, please refer to the peer-reviewed paper. <br />
 * Kindly inform the organization owner if you wish to obtain the pretrained model in this study
 
-# Training the Model
+### Training the Model
 To replicate the codes, the following must be noted:
 * To run the code properly you would need a training set of images and a validation set of images.
 * The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
