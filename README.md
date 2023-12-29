@@ -14,20 +14,20 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 ## Full Method
 * The work makes use of the above-mentioned CNN model, with slices preprocessing before training. 
 * Slices preprocessing -as in [here](https://github.com/IDU-CVLab/Images_Preprocessing)- includes a static rectangular cropping, and non-representative slcies removal in each CT scan. For more details, please refer to the peer-reviewed paper. <br />
-
-<br/>
-<b> Dependencies: </b><br/>
-▪ numpy == 1.19.5 <br/>
-▪ matplotlib == 3.3.4 <br/>
-▪ tensorflow == 2.5.0 <br/>
-▪ CV2 == 4.5.4 <br />
-▪ sklearn == 0.24.2 <br />
+* Kindly inform the organization owner if you wish to obtain the pretrained model in this study
 
 ## Training the Model
 To replicate the codes, the following must be noted:
 * To run the code properly you would need a training set of images and a validation set of images.
 * The images must be put in the appropriate directories. With that, the directory of training and validation images included in the code should be changed to match the directory where your image datasets are located. This method is following the documentation for ‘imagedatagenerator’ and ‘flow_from_directory’ at https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
-* Please note: this is a binary classificaiton task. To replicate the code using muti-class classificaiton data, you need to modify the model's output to suit your task.       
+* Please note: this is a binary classificaiton task. To replicate the code using muti-class classificaiton data, you need to modify the model's output to suit your task.
+
+## Dependencies
+▪ numpy == 1.19.5 <br/>
+▪ matplotlib == 3.3.4 <br/>
+▪ tensorflow == 2.5.0 <br/>
+▪ CV2 == 4.5.4 <br />
+▪ sklearn == 0.24.2 <br />   
 
 ## Citation
 If you find the this method useful, please consider citing: <br/> <br/>
@@ -41,5 +41,3 @@ pages = {1-16}, <br/>
 year  = {2023}, <br/>
 publisher = {Taylor & Francis}, <br/>
 doi = {10.1080/21681163.2023.2219765}, <br/>
-
-* Kindly inform the organization owner if you wish to obtain the pretrained model in this study
