@@ -12,9 +12,13 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 </p>       
 
 </br>
-* The work makes use of the above-mentioned CNN model, with slices preprocessing before training.  
-* Slices preprocessing -as in [here](https://github.com/IDU-CVLab/Images_Preprocessing)- includes a static rectangular cropping, and non-representative slcies removal in each CT scan. For more details, please refer to the peer-reviewed paper. <br />  
-* Kindly inform the organization owner if you wish to obtain the pretrained model in this study
+* The work makes use of the above-mentioned CNN model, with slices preprocessing before training. <br/>   
+
+### Slice Processing     
+Slices preprocessing -as in [here](https://github.com/IDU-CVLab/Images_Preprocessing)- includes a static rectangular cropping, and non-representative slcies removal in each CT scan. For more details, please refer to the peer-reviewed paper. <br /> 
+
+### Robustness to Noise
+
 
 ### Training the Model
 To replicate the codes, the following must be noted:
