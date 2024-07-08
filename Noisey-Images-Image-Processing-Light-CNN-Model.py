@@ -55,6 +55,47 @@ def add_gaussian_noise(image, mean=0, sigma=25):
     noisy_image = np.clip(noisy_image, 0, 255)  # Ensure pixel values are valid
     return noisy_image
 
+### 2nd sigma = 5
+def add_gaussian_noise(image, mean=0, sigma=25):
+    """Add Gaussian noise to an image"""
+    gaussian_noise = np.random.normal(mean, sigma, image.shape)
+    noisy_image = image + gaussian_noise
+    noisy_image = np.clip(noisy_image, 0, 255)  # Ensure pixel values are valid
+    return noisy_image
+
+### 3rd sigma = 15
+def add_gaussian_noise(image, mean=0, sigma=25):
+    """Add Gaussian noise to an image"""
+    gaussian_noise = np.random.normal(mean, sigma, image.shape)
+    noisy_image = image + gaussian_noise
+    noisy_image = np.clip(noisy_image, 0, 255)  # Ensure pixel values are valid
+    return noisy_image
+
+
+### 4th sigma = 35
+def add_gaussian_noise(image, mean=0, sigma=25):
+    """Add Gaussian noise to an image"""
+    gaussian_noise = np.random.normal(mean, sigma, image.shape)
+    noisy_image = image + gaussian_noise
+    noisy_image = np.clip(noisy_image, 0, 255)  # Ensure pixel values are valid
+    return noisy_image
+
+# Function to load an image
+def load_image(image_path, target_size=(224, 224)):
+    """Load a grayscale image"""
+    img = load_img(image_path, target_size=target_size, color_mode="grayscale")
+    img_array = img_to_array(img)
+    return img_array
+
+
+### 5th sigma = 50
+def add_gaussian_noise(image, mean=0, sigma=25):
+    """Add Gaussian noise to an image"""
+    gaussian_noise = np.random.normal(mean, sigma, image.shape)
+    noisy_image = image + gaussian_noise
+    noisy_image = np.clip(noisy_image, 0, 255)  # Ensure pixel values are valid
+    return noisy_image
+
 # Function to load an image
 def load_image(image_path, target_size=(224, 224)):
     """Load a grayscale image"""
