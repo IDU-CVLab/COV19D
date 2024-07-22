@@ -18,7 +18,7 @@ The algorithm introduces a less hand-engineered CNN model Architecture for autom
 Slices preprocessing -as in [here](https://github.com/IDU-CVLab/Images_Preprocessing)- includes a static rectangular cropping, and non-representative slcies removal in each CT scan. For more details, please refer to the peer-reviewed paper. <br /> 
 
 ### Robustness to Noise
-Gussian noise was added to the images in the original validation set and then images are processed as mentioned above and the pretrained and saved CNN model was tested on the newly-created noisey images. This step aims to check our method's performance against noisey data to prove the solution's robustness. The python code is named "Noisey-Images-Image-Processing-Light-CNN-Model.py".
+Gussian noise was added to the images in the original validation set and then images are processed as mentioned above and the pretrained and saved CNN model was tested on the newly-created noisey images. This step aims to check our method's performance against noisey data to prove the solution's robustness. Salt-and-paper was also added to the images to further validate the results with different types of noise. The python code is named "Noisey-Images-Image-Processing-Light-CNN-Model.py".
 
 ### Training the Model
 To replicate the codes, the following must be noted:
