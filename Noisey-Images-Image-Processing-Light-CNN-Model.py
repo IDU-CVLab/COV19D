@@ -92,7 +92,7 @@ def add_salt_and_pepper_noise(image, salt_prob=0.05, pepper_prob=0.05):
     return noisy_image
 
 ########## Function to load an image#########
-def load_image(image_path, target_size=(224, 224)):
+def load_image(image_path, target_size=(512, 512)):
     """Load a grayscale image"""
     img = load_img(image_path, target_size=target_size, color_mode="grayscale")
     img_array = img_to_array(img)
